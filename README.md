@@ -26,7 +26,7 @@ Statistics Basics and Advanced
       Since we can’t measure the “true conversion rate,” we have to select a sample that’s statistically representative 
       of the whole. The variance shrinks with a larger sample size, and it’s more likely that our mean will be accurate.
       
-* **Here are some A/B testing heuristics:**
+* **A/B testing heuristics:**
 
     * Test for full weeks.
     
