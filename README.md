@@ -249,6 +249,8 @@ If we wrongly say that there is a difference, we have a Type I error. 
 If we wrongly say there is no difference, it is called Type II error.
 
 
+## Common Questions 
+
 #### Design an experiment to see whether a new feature is better
 
 **Questions:**
