@@ -1,7 +1,7 @@
 # Stats
 Statistics Basics and Advanced
 
-##A/B Testing
+## A/B Testing
 
 * A/B testing, also known as split testing, is a marketing experiment wherein you "split" your audience to test a 
   number of variations of a campaign and determine which performs better. 
@@ -59,7 +59,7 @@ The disciplines mentioned above will help.
 15. Plan your next A/B test.
 
 
-##Hypothesis Testing
+## Hypothesis Testing
 
 Hypothesis testing is an objective method of making decisions or inferences from sample data (evidence). 
 Sample data is used to choose between two choices i.e. hypotheses or statements about a population. 
@@ -101,7 +101,7 @@ The null can only be rejected if there is enough evidence to disprove it and the
 is really guilty or innocent so they may make a mistake.
 
 
-##Confidence Interval
+## Confidence Interval
 
 * The Confidence interval is the range of values that we believe will have a specified chance of containing 
 the unknown population parameter.
@@ -130,7 +130,7 @@ the confidence interval. The variability of the population is estimated using th
 having an inverse square root relationship to it.
 
 
-##P-value  
+## P-value  
 
 Expresses the probability that extreme results obtained in an analysis of sample data are due to chance. 
 
@@ -154,7 +154,7 @@ significant results when many tests have been carried out or significant results
 
 
 
-##Type I vs Type II error 
+## Type I vs Type II error 
 
 
 If we wrongly say that there is a difference, we have a Type I error. 
@@ -162,7 +162,7 @@ If we wrongly say that there is a difference, we have a Type I error. 
 If we wrongly say there is no difference, it is called Type II error.
 
 
-##Design an experiment to see whether a new feature is better
+## Design an experiment to see whether a new feature is better
 
 **Questions:**
 
@@ -183,7 +183,7 @@ How different web pages perform using a random sample of visitor: define what pe
 included in the experiment, chose which object to test.
 
 
-##How do you test a data sample to see whether it is normally distributed? 
+## How do you test a data sample to see whether it is normally distributed? 
 
 * I would first plot the frequencies, comparing thehistogram of the sample to a normal probability curve. 
 This might be hard to see if the sample is small,in this case we can regress the data against the quantities 
@@ -198,7 +198,7 @@ sample is above or below the mean: z = (x - mean(x)) / (s/sqrt(N)) and then com
 samples, then a normal distribution understatesthe maximum magnitude of deviations in the data.
 
 
-##Given a dataset, how do you determine its sample distribution? 
+## Given a dataset, how do you determine its sample distribution? 
 
 * Please provide at leasttwo methods. Plot them using histogram: it should give you and idea as to what parametric 
 fam-ily(exponential, normal, log-normal...) might provide you with a reasonable fit. 
@@ -219,8 +219,8 @@ for categorical data to find its sampling distribution. 
 
 
 
-##What's the difference between the t-stat and R2 in a regression? What does each measure? 
-##When you get a very large value in one but avery small value in the other, what does that tell you about the regression? 
+## What's the difference between the t-stat and R2 in a regression? What does each measure? 
+## When you get a very large value in one but avery small value in the other, what does that tell you about the regression? 
 
 * Correlation is a measure of association between two variables, the variables are not designated as dependent or 
 independent. 
