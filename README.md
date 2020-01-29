@@ -40,3 +40,50 @@ Alternative: The person is not innocent.
 
 The null can only be rejected if there is enough evidence to disprove it and the jury do not know whether the person 
 is really guilty or innocent so they may make a mistake.
+
+
+#### Confidence Interval
+
+The Confidence interval is the range of values that we believe will have a specified chance of containing 
+the unknown population parameter.
+
+It gives us the information about the precision of a point estimate such as the sample mean.
+
+Confidence Intervals describe the variability surrounding the sample point estimate (the wider the interval, 
+the less confident we can be about the estimate of the population mean). In general, all things being equal, the 
+larger the sample size the better (more precise) the estimate is, as less variation between sample means is expected.
+
+In simple terms, CI will tell you the most likely range of the un-known population mean or proportion.
+
+The confidence is in the method, not in any interval.
+
+
+Three things affect the width of a confidence interval:
+
+1. Confidence Level: usually 95%.
+
+2. Variability: if there is more variation in a population, each sample taken will fluctuate more and wider 
+the confidence interval. The variability of the population is estimated using the standard deviation from the sample.
+
+3. Sample size: without lowering the confidence level, the sample size can control the width of a confidence interval, 
+having an inverse square root relationship to it.
+
+
+#### P-value  
+
+Expresses the probability that extreme results obtained in an analysis of sample data are due to chance. 
+We choose the probability level or p-value that defines when sample results will be considered strong enough to 
+support rejection of the null hypothesis. A low p-value (for example, less than 0.05) means that the null hypothesis 
+is unlikely to be true. With null hypothesis testing, all it takes is sufficient evidence (instead of definitive proof) 
+that we can see as at least some difference. The size of the difference is given by the confidence interval around the 
+difference. 
+
+A small p-value might occur:
+
+1. by chance
+2. because of problems related to data collection 
+3. because of violations of the conditions necessary for testing procedure 
+4. because H0 is true If multiple tests are carried out, some are likely to be significant by chance alone!
+
+For sigma = 0:05,we expect that significant results will be 5% of the time. Be suspicious when you see a few 
+significant results when many tests have been carried out or significant results on a few subgroups of the data.
