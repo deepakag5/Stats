@@ -9,54 +9,44 @@ Statistics Basics and Advanced
 * In other words, you can show version A of a piece of marketing content to one half of your audience, 
   and version B to another.
 
-* **Statistical terms in A/B testing**
+### Statistical terms in A/B testing
     
-    * **Mean**
+   * **Mean**
     
       The mean is the average. For conversion rates, it’s the number of events multiplied by the probability of 
       success (n*p).
       
-    * **Variance**
+   * **Variance**
     
       Variance is the average variability of our data. 
       The higher the variability, the less precise the mean will be as a predictor of an individual data point
 
-    * **Sampling**
+   * **Sampling**
     
       Since we can’t measure the “true conversion rate,” we have to select a sample that’s statistically representative 
       of the whole. The variance shrinks with a larger sample size, and it’s more likely that our mean will be accurate.
       
-* **A/B testing heuristics:**
+### Types of A/B tests
 
-    * Test for full weeks.
-    
-    * Test for two business cycles.
-    
-    * Make sure your sample size is large enough (use a calculator before you start the test).
-    
-    * Keep in mind confounding variables and external factors (holidays, etc.).
-    
-    * Set a fixed horizon and sample size for your test before you run it.
-    
-    * You can’t “see a trend.” Regression to the mean will occur. Wait until the test ends to call it.
+There are several types of A/B tests. You should choose the one that best fits your particular situation.
 
-**There are several types of A/B tests. You should choose the one that best fits your particular situation.**
-
-* Classic A/B test. The classic A/B test presents users with two variations of your pages at the same URL. 
+* **Classic A/B test:** The classic A/B test presents users with two variations of your pages at the same URL. 
   That way, you can compare two or several variations of the same element.
 
-* Split tests or redirect tests. The split test redirects your traffic towards one or several distinct URLs. 
+* **Split tests or redirect tests:** The split test redirects your traffic towards one or several distinct URLs. 
   If you are hosting new pages on your server, this could be an effective approach.
 
-* Multivariate or MVT test. Lastly, multivariate testing measures the impact of multiple changes on the same web page. 
+* **Multivariate or MVT test:** Lastly, multivariate testing measures the impact of multiple changes on the same web page. 
   For example, you can modify your banner, the color of your text, your presentation, and more.
 
 
-Your A/B tests must be complemented by additional information in order to identify conversion problems and offer an 
+**Choosing a Hyotheses for A/B testing**
+
+* Your A/B tests must be complemented by additional information in order to identify conversion problems and offer an 
 understanding of user behavior. This analysis phase is critical, and must help you to create “strong” hypotheses. 
 The disciplines mentioned above will help. 
 
-**A correctly formulated hypothesis is the first step towards a successful A/B testing program and must respect the following rules.**
+* A correctly formulated hypothesis is the first step towards a successful A/B testing program and must respect the following rules.
 
 *Hypotheses must:*
 
@@ -64,6 +54,7 @@ The disciplines mentioned above will help.
 * mention a possible solution to the problem
 * indicate the expected result, which is directly linked to the KPI to be measured
 
+### Process of Hypothesis Testing
 
 **Before A/B Test**
 
@@ -137,6 +128,22 @@ External variables can falsify the results of a test. Oftentimes, traffic acquis
 * **Segment tests**
 
 In some cases, conducting a test on all of a site’s users is nonsensical. If a test aims to measure the impact of different formulations of customer advantages on a site’s registration rate, submitting the current database of registered users is ineffective. The test should instead target new visitors.
+
+
+#### A/B testing heuristics
+
+   * Test for full weeks.
+    
+   * Test for two business cycles.
+    
+   * Make sure your sample size is large enough (use a calculator before you start the test).
+    
+   * Keep in mind confounding variables and external factors (holidays, etc.).
+    
+   * Set a fixed horizon and sample size for your test before you run it.
+    
+   * You can’t “see a trend.” Regression to the mean will occur. Wait until the test ends to call it.
+
 
 
 ## Hypothesis Testing
