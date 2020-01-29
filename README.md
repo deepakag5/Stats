@@ -4,10 +4,42 @@ Statistics Basics and Advanced
 ## A/B Testing
 
 * A/B testing, also known as split testing, is a marketing experiment wherein you "split" your audience to test a 
-  number of variations of a campaign and determine which performs better. 
+  number of variations of a campaign and determine which performs better.
+   
 * In other words, you can show version A of a piece of marketing content to one half of your audience, 
   and version B to another.
 
+* **Statistical terms in A/B testing**
+    
+    * **Mean**
+    
+      The mean is the average. For conversion rates, it’s the number of events multiplied by the probability of 
+      success (n*p).
+      
+    * **Variance**
+    
+      Variance is the average variability of our data. 
+      The higher the variability, the less precise the mean will be as a predictor of an individual data point
+
+    * **Sampling**
+    
+      Since we can’t measure the “true conversion rate,” we have to select a sample that’s statistically representative 
+      of the whole. The variance shrinks with a larger sample size, and it’s more likely that our mean will be accurate.
+      
+ 
+  * **Here are some A/B testing heuristics:**
+
+    * Test for full weeks.
+    
+    * Test for two business cycles.
+    
+    * Make sure your sample size is large enough (use a calculator before you start the test).
+    
+    * Keep in mind confounding variables and external factors (holidays, etc.).
+    
+    * Set a fixed horizon and sample size for your test before you run it.
+    
+    * You can’t “see a trend.” Regression to the mean will occur. Wait until the test ends to call it.
 
 **There are several types of A/B tests. You should choose the one that best fits your particular situation.**
 
