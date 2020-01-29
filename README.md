@@ -162,7 +162,7 @@ If we wrongly say that there is a difference, we have a Type I error. 
 If we wrongly say there is no difference, it is called Type II error.
 
 
-## Design an experiment to see whether a new feature is better
+#### Design an experiment to see whether a new feature is better
 
 **Questions:**
 
@@ -183,7 +183,7 @@ How different web pages perform using a random sample of visitor: define what pe
 included in the experiment, chose which object to test.
 
 
-## How do you test a data sample to see whether it is normally distributed? 
+#### How do you test a data sample to see whether it is normally distributed? 
 
 * I would first plot the frequencies, comparing thehistogram of the sample to a normal probability curve. 
 This might be hard to see if the sample is small,in this case we can regress the data against the quantities 
@@ -198,7 +198,7 @@ sample is above or below the mean: z = (x - mean(x)) / (s/sqrt(N)) and then com
 samples, then a normal distribution understatesthe maximum magnitude of deviations in the data.
 
 
-## Given a dataset, how do you determine its sample distribution? 
+#### Given a dataset, how do you determine its sample distribution? 
 
 * Please provide at leasttwo methods. Plot them using histogram: it should give you and idea as to what parametric 
 fam-ily(exponential, normal, log-normal...) might provide you with a reasonable fit. 
