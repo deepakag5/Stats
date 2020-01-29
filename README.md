@@ -219,8 +219,7 @@ for categorical data to find its sampling distribution. 
 
 
 
-## What's the difference between the t-stat and R2 in a regression? What does each measure? 
-## When you get a very large value in one but avery small value in the other, what does that tell you about the regression? 
+#### What's the difference between the t-stat and R2 in a regression? What does each measure?  When you get a very large value in one but avery small value in the other, what does that tell you about the regression? 
 
 * Correlation is a measure of association between two variables, the variables are not designated as dependent or 
 independent. 
