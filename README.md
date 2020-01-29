@@ -59,6 +59,55 @@ The disciplines mentioned above will help.
 15. Plan your next A/B test.
 
 
+### Tips and best practices for A/B testing
+
+Below are several best practices that can help you avoid running into trouble. 
+
+* **Ensure data reliability for the A/B testing solution**
+
+Conduct at least one A/A test to ensure a random assignment of traffic to different versions. This is also an opportunity to compare the A/B testing solution indicators and those of your web analytics platform. This is done in order to verify that figures are in the ballpark, not to make them correspond exactly.
+
+* **Conduct an acceptance test before starting**
+
+Do some results seem counter-intuitive? Was the test set up correctly and were the objectives correctly defined? In many cases, time dedicated to acceptance testing saves precious time which would be spent interpreting false results.
+
+* **Test one variable at a time**
+
+This makes it possible to precisely isolate the impact of the variable. If the location of an action button and its label are modified simultaneously, it is impossible to identify which change produced the observed impact.
+
+* **Conduct one test at a time**
+
+For the same reasons cited above, it is advisable to conduct only one test at a time. The results will be difficult to interpret if two tests are conducted in parallel, especially if they’re on the same page.
+
+* **Adapt number of variations to volume**
+
+If there is a high number of variations for little traffic, the test will last a very long time before giving any interesting results. The lower the traffic allocated to the test, the less there should be different versions.
+
+* **Wait to have a statistical reliability before acting**
+
+So long as the test has not attained a statistical reliability of at least 95%, it is not advisable to make any decisions. The probability that differences in results observed are due to chance and not to the modifications made is very high otherwise.
+
+* **Let tests run long enough**
+
+Even if a test rapidly displays statistical reliability, it is necessary to take into account the size of the sample and differences in behavior linked to the day of the week. It is advisable to let a test run for at least a week—two ideally—and to have recorded at least 5,000 visitors and 75 conversions per version.
+
+* **Know when to end a test**
+
+If a test takes too long to reach a reliability rate of 95%, it is likely that the element tested does not have any impact on the measured indicator. In this case, it is pointless to continue the test, since this would unnecessarily monopolize a part of the traffic that could be used for another test.
+
+* **Measure multiple indicators**
+
+It is recommended to measure multiple objectives during the test. One primary objective to help you decide on versions and secondary objectives to enrich the analysis of results. These indicators can include click rate, cart addition rate, conversion rate, average cart, and others.
+
+* **Take note of marketing actions during a test**
+
+External variables can falsify the results of a test. Oftentimes, traffic acquisition campaigns attract a population of users with unusual behavior. It is preferable to limit collateral effects by detecting these kinds of tests or campaigns.
+
+* **Segment tests**
+
+In some cases, conducting a test on all of a site’s users is nonsensical. If a test aims to measure the impact of different formulations of customer advantages on a site’s registration rate, submitting the current database of registered users is ineffective. The test should instead target new visitors.
+
+
 ## Hypothesis Testing
 
 Hypothesis testing is an objective method of making decisions or inferences from sample data (evidence). 
